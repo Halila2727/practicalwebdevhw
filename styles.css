@@ -1,0 +1,32 @@
+h1, h3 {
+    color:darkslategray;
+}
+
+.edu > .title{ /*all li items in class title in ul class edu*/
+    text-align: center;
+    font-weight: bold;
+}
+
+ul > li:hover{ /*all list items*/
+    background-color: gainsboro;
+    color: crimson;
+}
+
+.work > .title{ /*all li items in class title in ul class work*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, .position{
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+.position > span{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline;
+    background-color:cornsilk;
+}
